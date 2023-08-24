@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #222f3e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 i{
+    margin: 0 5px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background: #e67e22;
+}
+.nav2{
+    width: 100%;
+    height: 80px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav2 img{
+    width: 76px;
+
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    /* background: url(https://images.unsplash.com/photo-1690915611188-2d6e2fc30c1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1047&q=80); */
+    background-image: url(https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2019-8/couple-hiking-mountain-climbing-1296x728-header.jpg?w=1155&h=1528);
+    background-size: cover;
+}
+.text{
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text h1{
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text span{
+    color: #e67e22;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text p{
+    font-size: 20px;
+    margin: 40px 0;
+    line-height: 30px;
+}
+.text a{
+    text-decoration: none;
+    color: white;
+    background: #e67e22;
+    padding: 10px 20px;
+    margin: 0 15px;
+    letter-spacing: 5px;
+}
+.foot{
+    /* background: #6cb9c7; */
+    /* background-image: url(https://images.unsplash.com/photo-1690645559591-76dfae51eac3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE1NHw2c01WalRMU2tlUXx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60); */
+    background-image: url(https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2019-8/couple-hiking-mountain-climbing-1296x728-header.jpg?w=1155&h=1528);
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    padding-top: 20px;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+.div1 a{
+    text-decoration: none;
+    font-weight: 400;
+}
+.div1 a:hover{
+    font-size: 20px;
+}
+.div2 a{
+    text-decoration: none;
+    font-weight: 400;
+}
+.div2 a:hover{
+    font-size: 20px;
+}
+.div3{
+    padding-top: 20px;
+    font-weight: 900;
+}
+footer p{
+    padding-top: 40px;
+    font-weight: 600;
+}
+.mid{
+    height: 400px;
+    width: 100%;
+    background-color: #e9e6e6;
+    display: flex;
+}
+.col1{
+    height: 400px;
+    width: 50%;
+    background-image: url(https://img.freepik.com/free-photo/closeup-diverse-people-enjoying-barbecue-party-together_53876-22990.jpg);
+    background-size: cover;
+}
+.col2{
+    height: 400px;
+    width: 50%;
+    background-image: url(https://st2.depositphotos.com/4370503/6436/i/450/depositphotos_64364335-stock-photo-three-race-cars.jpg);
+    background-size: cover;
+}
+.text1{
+    color: rgb(21, 203, 209);
+    font-weight: bolder;
+    padding-top: 100px;
+    opacity: 0.3;
+}
+.text1 h3{
+    text-decoration: underline;
+}
+.text1 li{
+    color: rgb(241, 10, 10);
+}
+.text1:hover{
+    font-size: 25px;
+    opacity: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text3{
+    color: rgb(21, 203, 209);
+    font-weight: bolder;
+    padding-top: 100px;
+    opacity: 0.3;
+}
+.text3 h3{
+    text-decoration: underline;
+}
+.text3 li{
+    color: rgb(223, 159, 21);
+}
+.text3:hover{
+    font-size: 25px;
+    opacity: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rooma{
+    height: 900px;
+    width: 100%;
+    /* background-image: url(https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/sites/4/2022/01/31113624/Cover-5.png); */
+    background-size: cover;
+    background-position: center;
+}
+.room1{
+    height: 600px;
+    width: 100%;
+    background-image: url(https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/sites/4/2022/01/31113624/Cover-5.png);
+    background-size: cover;
+    background-position: center;
+}
+.roomb{
+    display: flex;
+}
+.room2{
+    height: 300px;
+    width: 33%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmU8NdJ0-BNWT67BUdBClIdsKEgF0ojRiCkA&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.room3{
+    height: 300px;
+    width: 33%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRtCWZmo17Z3iqRPky7eUjJ_oTCw037Ax-Ag&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.room4{
+    height: 300px;
+    width: 34%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkegAiQDT-Eli8wQ_MxLY2LInLFyJcbHLqnQLd-QpTU9e6V58ovjiLODDc00HyvVtD6Hc&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
