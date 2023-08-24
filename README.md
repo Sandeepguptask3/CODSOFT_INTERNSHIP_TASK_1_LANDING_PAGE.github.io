@@ -22,6 +22,8 @@ Customize the content by modifying the HTML and CSS files according to your proj
 
 Open the index.html file in a web browser to preview the landing page.
 
+# Link :https://sandeepguptask3.github.io/CODSOFT_INTERNSHIP_TASK_1_LANDING_PAGE.github.io/
+
 Deploy the landing page to your preferred hosting platform to make it accessible online.
 
 # Contribution
